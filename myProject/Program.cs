@@ -27,6 +27,7 @@ namespace myProject
                 Console.WriteLine(pr.Print());
             }
 
+            Console.WriteLine();
             SortList sortList = new SortList();
             products.Sort(sortList.ComparePrise);
 
