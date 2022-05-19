@@ -17,6 +17,7 @@ namespace myProject
                  new Vegetables(4, Catalog.tomato, 6, 2, 15.1m, 3)
             };
 
+
             List<Supplier> suppliers = new List<Supplier>()
             {
                  new Supplier(1, "Магнит", "Тула"),
