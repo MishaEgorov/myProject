@@ -11,9 +11,15 @@ namespace myProject
         {
             List<Products> products = new List<Products>();
 
-            Fruit apple = new Fruit(Catalog.apple,1,10,11.5f,100);
-            Fruit banana = new Fruit(Catalog.banana, 2, 5,6.1f,50);
-            Fruit pear = new Fruit(Catalog.pear, 4, 10, 10.2f,156.5m);
+
+
+            List<Supplier> suppliers = new List<Supplier>()
+            {
+                 new Supplier(1, "Магнит", "Тула"),
+                 new Supplier(2, "Спар", "Москва"),
+                 new Supplier(3, "Пятёрочка", "Тула"),
+            };
+
 
             Vegetables tomato = new Vegetables(Catalog.tomato, 3, 6, 2, 15.1m);
 
